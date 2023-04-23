@@ -1,0 +1,920 @@
+
+Practical 1                                                                 
+
+
+
+Aim: Study of Cloud Computing and Architecture
+
+ 
+
+Definition of Cloud Computing
+
+Cloud computing is the delivery of different services through the Internet. These resources include tools and applications like data storage, servers, databases, networking, and software.
+
+Rather than keeping files on a proprietary hard drive or local storage device, cloud-based storage makes it possible to save them to a remote database. As long as an electronic device has access to the web, it has access to the data and the software programs to run it.
+
+ 
+
+What is Cloud Computing?
+
+Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider like Amazon Web Services (AWS).The term cloud refers to a network or the internet. It is a technology that uses remote servers on the internet to store, manage, and access data online rather than local drives. The data can be anything such as files, images, documents, audio, video, and more.
+
+ 
+
+ 
+
+How is Cloud Computing Works?
+
+In a cloud computing system, there is a significant workload shift. Local computers have no longer to do all the heavy lifting when it comes to run applications. But cloud computing can handle that much heavy load easily and automatically. Hardware and software demands on the user's side decrease. The only thing the user's computer requires to be able to run is the cloud computing interface software of the system, which can be as simple as a Web browser and the cloud's network takes care of the rest.
+
+ 
+
+Cloud Services
+
+There are the following three types of cloud service models -
+
+Infrastructure as a Service (IaaS)
+Platform as a Service (PaaS)
+Software as a Service (SaaS)
+Comparison of Saas, Paas and Iaas
+
+ 
+
+Basis Of
+
+IAAS
+
+PAAS
+
+SAAS
+
+Stands for
+
+Infrastructure as a service.
+
+Platform as a service.
+
+Software as a service.
+
+Uses
+
+IAAS is used by network architects.
+
+PAAS is used by developers.
+
+SAAS is used by the end user.
+
+Access
+
+IAAS gives access to the resources like virtual machines and virtual storage.
+
+PAAS gives access to run time environment to deployment and development tools for application.
+
+SAAS gives access to the end user.
+
+Model
+
+It is a service model that provides virtualized computing resources over the internet.
+
+It is a cloud computing model that delivers tools that are used for the development of applications.
+
+It is a service model in cloud computing that hosts software to make it available to clients.
+
+Technical understanding.
+
+It requires technical knowledge.
+
+Some knowledge is required for the basic setup.
+
+There is no requirement about technicalities company handles everything.
+
+Popularity.
+
+It is popular among developers and researchers.
+
+It is popular among developers who focus on the development of apps and scripts.
+
+It is popular among consumers and companies, such as file sharing, email, and networking.
+
+Cloud services.
+
+Amazon Web Services, sun, vCloud Express.
+
+Facebook, and Google search engine.
+
+MS Office web, Facebook and Google Apps.
+
+Enterprise services.
+
+AWS virtual private cloud.
+
+Microsoft Azure.
+
+IBM cloud analysis.
+
+Outsourced cloud services.
+
+Salesforce
+
+Force.com, Gigaspaces.
+
+AWS, Terremark
+
+User Controls
+
+Operating System, Runtime, Middleware, and Application data
+
+Data of the application
+
+Nothing
+
+ 
+
+ 
+
+Types of Cloud
+
+There are the following 4 types of cloud that you can deploy according to the organization's needs-
+
+Public Cloud
+Private Cloud
+Hybrid Cloud
+Community Cloud
+Public Cloud
+
+Public cloud is open to all to store and access information via the Internet using the pay-per-usage method.
+
+In public cloud, computing resources are managed and operated by the Cloud Service Provider (CSP).
+
+Example: Amazon elastic compute cloud (EC2), IBM SmartCloud Enterprise, Microsoft, Google App Engine, Windows Azure Services Platform.
+
+ 
+
+Private Cloud
+
+Private cloud is also known as an internal cloud or corporate cloud. It is used by organizations to build and manage their own data centers internally or by the third party. It can be deployed using Opensource tools such as Openstack and Eucalyptus.
+
+ 
+
+Based on the location and management, National Institute of Standards and Technology (NIST) divide private cloud into the following two parts-
+
+On-premise private cloud
+Outsourced private cloud
+ 
+
+Hybrid Cloud
+
+Hybrid Cloud is a combination of the public cloud and the private cloud. we can say:
+
+Hybrid Cloud = Public Cloud + Private Cloud
+
+Hybrid cloud is partially secure because the services which are running on the public cloud can be accessed by anyone, while the services which are running on a private cloud can be accessed only by the organization's users.
+
+Example: Google Application Suite (Gmail, Google Apps, and Google Drive), Office 365 (MS Office on the Web and One Drive), Amazon Web Services.
+
+ 
+
+Community Cloud
+
+Community cloud allows systems and services to be accessible by a group of several organizations to share the information between the organization and a specific community. It is owned, managed, and operated by one or more organizations in the community, a third party, or a combination of them.
+
+Example: Health Care community cloud
+
+ 
+
+Benefits of Clouds
+
+The main benefits of cloud computing are:
+
+Data backup and storage of data.
+Powerful server capabilities.
+Incremented productivity.
+Very cost effective and time saving.
+Software as Service known as SaaS.
+Cloud Architecture
+
+Cloud computing technology is used by both small and large organizations to store the information in cloud and access it from anywhere at anytime using the internet connection.
+
+Cloud computing architecture is a combination of service-oriented architecture and event-driven architecture.
+
+Cloud computing architecture is divided into the following two parts -
+
+Front End
+Back End
+ 
+
+ 
+
+ 
+
+Components of Cloud Computing Architecture
+
+There are the following components of cloud computing architecture -
+
+Client Infrastructure
+Client Infrastructure is a Front end component. It provides GUI (Graphical User Interface)  to interact with the cloud.
+
+Application
+The application may be any software or platform that a client wants to access.
+
+Service
+A Cloud Services manages that which type of service you access according to the client’s requirement.
+
+ 
+
+Practical 2                                                              
+
+ 
+
+Aim: Study Cloud Security management
+
+Steps:
+
+ 
+
+Click on Create AWS account.
+
+ 
+
+Don’t Provide Payment Information and sign out and login back.
+
+ 
+
+Click on “My Account
+
+ 
+
+Go to My Account login AWS Management Console.
+
+Click on Multifactor authentication (MFA)
+
+Click on Continue.
+
+Set up virtual MFA device as your mobile phone first you download app to access below QR code. You can see list of compatible application.
+
+ 
+
+Click on show QR Code you will see QR Code scan this code via compatible application for your phone. Example download “google authenticator” for android phone.
+
+ 
+
+Scan QR code via google authenticator you will get MFA Code after some time you will get new MFA code this code you can use as MFA code1 and code2 both codes should be different.
+
+ 
+
+In your phone you will receive assigned virtual MFA
+
+For Testing 1st logout your account and login once again after entering email address and password it will ask to enter MFA code which you can get it from your Google Authenticator enter correct code.
+
+nshivane2002@gmail.com
+
+ 
+
+ 
+
+After entering correct code go to security credential you will see MFA
+
+activated. Now we will Create Access keys for our account for more security. Click on Create New Access Key.
+
+ 
+
+It will show your access id and secrete key. Here you can download keys as well.
+
+ 
+
+Practical 3                                                               
+
+ 
+
+Aim: To study and implementation of Storage as a Service
+
+ 
+
+Objectives:
+
+From this experiment, the student will be able to
+
+To make the students understand use of cloud as Platform, Storage as a services.
+
+To learn the efficient tools to implement the technique.
+
+ 
+
+Conclusion:
+
+Google Docs provide an efficient way for storage of data. It fits well in
+
+Storage as a service (SaaS). It has varied options to create documents,
+
+presentations and also spreadsheets. It saves documents automatically after a
+
+few seconds and can be shared anywhere on the Internet at the click of a
+
+button.
+
+ 
+
+ 
+
+Practical 4                                                              
+
+ 
+
+Aim: Study and implementation of Single-Sign-on
+
+                                                                              
+
+Code: -
+
+Open URL= https://auth0.com
+
+Scroll down and click on Try auth0 for free
+
+ 
+
+Sign up with google
+
+ 
+
+Select Use another account if u want to login via different login otherwise use displayed login.
+
+It will provide tenant domain for auth0.com. Here you can change default Domain.
+
+ 
+
+Click on Nexts.
+
+Selevy Personal Account and click on create account.
+
+ 
+
+After competition it will show dashboards
+
+ 
+
+Click on services under marketplace tab
+
+ 
+
+Click on Google Try.
+
+ 
+
+To click Add Integration
+
+ 
+
+It asks to select your google account.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+After verifying it show below page by auth0.com
+
+ 
+
+NEXT Click on GitHub
+
+ 
+
+Click to Save. It will add Application Tab
+
+ 
+
+Click on Save again.
+
+ 
+
+ 
+
+Click to setting it show TRY Button click on try button. Login via your Gmail
+
+account which is used in auth0
+
+ 
+
+ 
+
+Practical 5                                                             
+
+ 
+
+Aim: Study  cloud management
+
+ 
+
+Steps:
+
+ 
+
+Sign in to an AWS account and click on IAM
+
+ 
+
+Click on Users.
+
+ 
+
+Select Add Users to add more users.
+
+ 
+
+Enter details of the new user.
+
+ 
+
+Select Attach policies directly.
+
+ 
+
+Review the user details.
+
+ 
+
+Select Create user.
+
+ 
+
+Select Read Only so no other user can get the root access other than the root user.
+
+ 
+
+This is the confirmation that new user is created.
+Click on Return to users list to add another user.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Practical 6                                                             
+
+                               
+
+Aim: User management in cloud
+
+ 
+
+Steps:
+
+ 
+
+Sign in to an AWS account and click on IAM
+
+Click on User.
+
+Click on User group.
+
+Enter the name of new group.
+
+Add members to the group.(optional)
+
+Add policies of your choice. (optional)
+
+Select Create Group to add a new group.
+
+New Group is created as shown below.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Practical 7                                                            
+
+ 
+
+Aim: Study and implementation of Infrastructure as a Service.
+
+ 
+
+Steps:
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Practical 8
+
+ 
+
+Aim: Write a program for web feed.
+
+ 
+
+Code/Steps:
+
+
+Type the following code in Notepad. Save it as XML file named as RSS.xml.
+
+ 
+
+Open Visual Studio and create a new project in ASP.Net Empty Website.
+
+ 
+
+Right click on project name and select Add and then Add New Item.
+
+Edit the below given code in the opened file.
+
+ 
+
+Again click on RSS and go to Add and then select Existing Item.
+
+ 
+
+ 
+
+Locate the saved RSS named file in XML format.
+
+ 
+
+Run the project and it will show the following output.
+
+ 
+
+After clicking on the link in above output, It will show the below page as Final Output.
+
+ 
+
+ 
+
+Practical 9
+
+Aim: Installation and Configuration of virtualization using KVM.
+
+Code/Steps:
+
+CTRL + D > increase virtual storage (min 40 GB)
+
+Start the Linux virtual machine Search Disk and Open
+
+Click on settings and Resize.                                                                                                                                        Increase the Volume to Max using slider and click Resize
+
+Do the same for other File System Partition as well and restart the Virtual system
+
+Go to https://bit.ly/3WoFolg and download Windows 7 iso file inside the linux system
+
+Install VMM(Virtual Machine Manager) in terminal using: sudo apt install ssh- askpass virt-manager
+
+sudo systemctl enable --now libvirtd sudo virt-manager , this will open VMM
+
+Click on File -> New Virtual Machine and then click Forward
+
+Now choose the iso from Browse Local option and uncheck Auto detect and choose Generic Default under OS to be installed
+
+Click Next and select Install Now
+
+Choose custom installation and follow the onscreen steps
+
+After setup is finished, windows 7 will restart
+
+Once setup is complete, Windows 7 will be installed under VMM Done
+
+ 
+
+Practical 10
+
+Aim: Case study on Amazon EC2/Microsoft Azure/Google Cloud Platform.      
+
+ 
+
+Case Study on Amazon EC2
+
+What is Amazon EC2?
+
+Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity in the Amazon Web Services (AWS) Cloud.
+
+Using Amazon EC2 eliminates your need to invest in hardware up front, so you can develop and deploy applications faster.
+
+You can use Amazon EC2 to launch as many or as few virtual servers as you need, configure security and networking, and manage storage.
+
+Amazon EC2 enables you to scale up or down to handle changes in requirements or spikes in popularity, reducing your need to forecast traffic.
+
+ 
+
+Features of Amazon EC2
+
+Virtual computing environments, known as instances
+Preconfigured templates for your instances, known as Amazon Machine Images (AMIs), that package the bits you need for your server (including the operating system and additional software)
+Various configurations of CPU, memory, storage, and networking capacity for your instances, known as instance types.
+Secure login information for your instances using key pairs (AWS stores the public key, and you store the private key in a secure place)
+Storage volumes for temporary data that's deleted when you stop, hibernate, or terminate your instance, known as instance store volumes.
+Persistent storage volumes for your data using Amazon Elastic Block Store (Amazon EBS), known as Amazon EBS volumes.
+Multiple physical locations for your resources, such as instances and Amazon EBS volumes, known as Regions and Availability Zones.
+A firewall that enables you to specify the protocols, ports, and source IP ranges that can reach your instances using security groups.
+Static IPv4 addresses for dynamic cloud computing, known as Elastic IP addresses. Metadata, known as tags, that you can create and assign to your Amazon EC2 resources.
+Virtual networks you can create that are logically isolated from the rest of the AWS Cloud, and that you can optionally connect to your own network, known as virtual private clouds (VPCs).
+ 
+
+EC2 Instance Lifecycle
+
+We Select an AMI (with Lampstack).
+
+When we launch the AMI, we need to provide parameter, key pair file and how many instances to be launched.
+
+Once the Instance is stared, it will be in pending state. It will then copy AMI from Group.
+
+When the Instance is in running stage, it will have both public and private IP.
+
+Termination of Instance, where it will be shut down.
+
+ 
+
+A point to note is that Amazon charges the user right from the pending state of instance-to-instance termination.
+
+There is also a special type of Amazon instance available called EDS.
+
+They provide you with an additional stage called stop instance which will decrease cost.
+
+ 
+
+EC2 Types
+
+General Purpose (M1 & M3): - It is the 1st generation. The M2 & M3 have similar kind of instances. The only difference is that M3 will be new, and it will provide better I/O. It will also cost less. For application hosting and web server usage, it would be recommended to go for M1 &M3.
+
+Compute Optimized Instances (C1 &CC2) – They provide instances of high compute power. They have a higher ratio of vCPUs to memory than other families and lowest cost per vCPU. IF you have higher CPU requirement, go for C1 &CC2. Here caching activity need more memory utilization.
+
+Storage Optimized Instances (HI1 & HS1) – In some case, we need more storage optimized instances, (HI1 & HS1) as it will provide higher throughput, yet be a right fit for NoSQL Database.
+
+ 
+
+Choosing the right instance
+
+Amazon soes not provide any bench marking for selection. Reason is that bench marking depends on user application.
+If application requires more memory, it may have different requirements and so on. Also, the Graphic Processing units go for Cluster GPU instances.
+The different instance types are compared according to the memory (GiB), vCPU and ECU.
+ 
+
+ 
+
+ 
+
+ 
+
+Case Study on Microsoft Azure
+
+Windows Azure is a cloud computing platform and infrastructure, created by Microsoft, for building, deploying and managing application and services through a global network or Microsoft-managed datacenters.
+
+IT provides both platform as a service (PaaS) and Infrastructures as a service (IaaS) services and supports many different programming languages, tools and frameworks, including both Microsoft-specific and third-party software and systems.
+
+Windows Azure was released on February 1, 2010.
+
+ 
+
+Features of Microsoft Azure
+
+Website allows developers to build sites using ASP.NET, PHP or Node.js can be deployed using FTP, Git or Team Foundation Server.
+Virtual machines let developers migrate applications and infrastructure without changing exiting code, and can run both Windows Server and Linux virtual machines
+Media service- A PaaS offering that can be used for encoding, content protection, streaming, and/or analytics.
+In October 2012, Microsoft released a downloadable PDF poster that summarizes Windows Azure and the feature in it. The PDF contains clickable areas pointing to additional documentation.
+Data Management
+SQL Database
+
+Tables
+
+BLOB Storage
+
+Identity
+Active Directory
+
+Access Control Service
+
+ 
+
+ 
+
+Privacy
+
+To manage Privacy and Security related concerns, Microsoft has created a Windows Azure Trust Center, Windows Azure has several of its services complaints with several compliance programs including ISO 27001:2005 and HIP AA.
+
+A full and current listing can be found on the Windows Azure Trust Center compliance page.
+
+ 
+
+ 
+
+Case Study on Google Cloud Platform
+
+GCP is a public cloud vendor — like competitors Amazon Web Services
+
+(AWS) and Microsoft Azure. With GCP and other cloud vendors, customers
+
+are able to access computer resources housed in Google’s data centers
+
+around the world for free or on a pay-per-use basis.
+
+GCP offers a suite of computing services to do everything from GCP cost
+
+management to data management to delivering web and video over the web to AI and machine learning tools.
+
+ 
+
+Features of Google Cloud Platform:
+
+ 
+
+Pricing: Google recently shifted its pricing model to include sustained-use discounts and per-minute billing. Billings starts with a 10-minute minimum and bills per minute for the following time.
+ 
+
+Hosting: The Cloud Platform offers two hosting options: the App Engine, which is their Platform-as-a-Service and Computes Engine as an
+Infrastructure-as-a-Service.
+
+ 
+
+Containers: Containers are especially useful in a PaaS situation because they assist in speeding deployment and scaling apps.
+ 
+
+Big Data: The Google Cloud Platform offers a full big data solution, but there are two unique tools for big data processing and analysis on Google
+Cloud Platform. First, Big Query allows users to run SQL-like queries on terabytes of data.
+
+Plus, you can load your data in bulk directly from your Google Cloud Storage.
+
+The second tool is Google Cloud Dataflow.
+
+Also announced at I/O, Google Cloud Dataflow allows you to create, monitor, and glean insights from a data processing pipeline.
+
+ 
+
+Andromeda: Google Cloud Platform networking tools and services are all
+based on Andromeda, Google’s network virtualization stack.
+
+ 
+
+Load Balancing: In June, Google announced the Cloud Platform HTTP
+Load Balancing to balance the traffic of multiple computer instances across different geographic regions.
+
+ 
+
+Cloud Debugger: The Cloud Debugger gives developers the option to assess and debug code in production. Developers can set a watchpoint on a line of code, and any time a server request hits that line of code, they will get all of the variables and parameters of that code.
+ 
+
+Cloud Trace: Cloud Trace lets you quickly figure out what is causing a performance bottleneck and fix it. The base value add is that it shows you how much time your product is spending processing certain requests.
+ 
+
+Maintenance: Google does routine testing and regularly sends patches, but it also sets all virtual machines to migrate away from maintenance as it is being performed. Compute Engine automatically migrates your running instance.
+ 
+
+Cloud Save: The Cloud Save API was announced at the 2014 Google I/O developers conference by Greg DeMichillie, the director of product management on the Google Cloud Platform. Cloud Save is a feature that lets you "save and retrieve per-user information”. It also allows cloud-stored data to be synchronized across devices.
+6 visits · 1 online
+  
+© 2023 JustPaste.it
+Account
+Terms
+Privacy
+Cookies
+Blog
+About
